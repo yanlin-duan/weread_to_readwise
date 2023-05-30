@@ -19,6 +19,6 @@
     * 打开你fork的工程，点击Settings->Secrets and variables->New repository secret
     * 添加以下变量
         * WEREAD_COOKIE
-        * NOTION_TOKEN
-        * NOTION_DATABASE_ID
+        * READWISE_TOKEN
+
 
