@@ -13,12 +13,13 @@
     * 微信扫码登录确认，提示没有权限忽略即可
     * 按F12进入开发者模式，依次点 Network -> Doc -> Headers-> cookie。复制 Cookie 字符串;
 4. 获取ReadwiseToken
-    * 浏览器打开 
-    * 点击show，然后copy
+    * 浏览器打开 https://readwise.io/access_token
+    * 点击get access，然后copy
 5. 在Github的Secrets中添加以下变量
     * 打开你fork的工程，点击Settings->Secrets and variables->New repository secret
     * 添加以下变量
         * WEREAD_COOKIE
         * READWISE_TOKEN
+6. Actions，开启workflow
 
 
