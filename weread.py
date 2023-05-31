@@ -329,6 +329,9 @@ if __name__ == "__main__":
                 }
                 if 	'note' in bookmark:
                     params['note'] = bookmark.get('note')
+                    reviewId  =  bookmark.get('reviewId')
+                    params['highlight_url'] = f'https://weread.qq.com/web/review-detail?reviewid={reviewId}&type=1'
+                    
                 annotations.append(params)
     
             
